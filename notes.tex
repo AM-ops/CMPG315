@@ -1,5 +1,7 @@
 \documentclass[a4paper, 12pt, titlepage]{report}
 \usepackage{fullpage}
+\usepackage{natbib}
+\usepackage{hyperref}
 \renewcommand{\chaptername}{Study Unit}
 \begin{document}
 \linespread{1.5}
@@ -18,6 +20,36 @@ Outcomes:
 \item Describe the protocols of the OSI and TCP/IP reference models; and
 \item Describe the Internet network as example.
 \end{itemize}
+\section{What is a communication network?}
+A communication network can be defined as a collection of hardware and software that enables users to exchange information. The telephone network is the best-known example of a communication network and was designed for the transmission of speech. Another example is a local area network in an office that consists of a number of PCs that are linked in some way and that can be used for the sharing of programs, data, printers, and other peripheral hardware. A local area network can also be found in a manufacturing plant where computers, robots, sensors, etc. are linked. Larger computer networks can be countrywide and can also, ultimately, be linked to worldwide networks. These networks all differ in the way in which they are used and the information that is sent over them. They are, however, all based on the same principles.\\\\
+Let us first look at the definition given above:
+\begin{itemize}
+\item \emph{Information} is exchanged: the information can be in the form of speech, sound, graphics, image, video, or text.
+\item Exchange occurs between \emph{users}: the users are usually people, but could also be programs and devices.
+\item In \emph{digital transmission}, the information is converted into \emph{bits} (zeros and ones).
+\item The bits are \emph{sent} to the receiver in the form of electrical or optical signals (electromagnetic waves).
+\item At the receiver, the information is \emph{reconstructed} from the bits received.
+\item Digital transmission is used to minimise \emph{errors}.
+\end{itemize}
+Transmission can take place over a point-to-point link. Such a link is permanent between the two users. In general, such a point-to-point link between two users is not viewed as a network.\\\\
+A network is, rather, the link among a number of users. Use is not normally made of point-topoint links between every pair of users. If it were to be done this way, the cost of such a network would be enormous. Furthermore, the addition of a new user would result in having to lay links between the new user and every other user. Instead, links are shared by the users in a network. It is, however, now necessary for effective methods to be found for sharing the links (Figure 1.1). When information is being sent from one user to another, it is typically necessary to first wait until the link becomes available. When links are shared, it becomes necessary to build “switches” (compare a telephone exchange) into the network, which control the sharing of links. These “switches” are known as communication nodes.\\\\
+Gateways or links to other networks and repeaters in the network are also examples of communication nodes. We can, furthermore, refer to the destination hardware in a network as terminal (terminating) nodes; examples are telephones, computers, terminals, printers, and video monitors. Terminal nodes generate and use the information sent over the network, while the communication nodes are responsible for the transfer of the information. Terminal nodes can also perform communication functions; they must at least send and receive the information.\\\\
+The links or communication media can be cable, optical fibre, radio, or satellite. Users are then linked to the nodes. If two users want to communicate with each other, their communication must be rotated or switched through the network through the network nodes. Such a network can be dedicated to voice (telephone network) or data, or both. Such a network provides a cost-effective method of linkage among a number of users. The question is now: what is meant by a user?\\\\
+A user could be a terminal or host computer in the case of a data network. In the case of a telephone network (voice), the user is usually a person who wants to communicate with another person (answering machine?). In a data network, the answer could, however, be more complex. The user could now, in reality, be a person behind a terminal; it could be a printer, or a computer, or even an application executing on a computer – thus, any communicating entity.\\\\
+Some networks make use of packet switching technology, while others make use of circuit switching. In packet switching, the data is sent in the form of blocks or packets from source to destination. The source and destination are terminal nodes. With this technology, packets from multiple sources can be sent to multiple destinations over the same links. There are two methods according to which packet switching can be implemented. The one is virtual circuit switching where a path – a virtual circuit – from source to destination is set up through the network before data is transmitted. The data is then transmitted along this virtual circuit in the form of packets. The packets arrive at the destination in the order in which they were sent. The nodes and links making up the virtual circuit can, furthermore, also be part of other virtual circuits. The packets are stored at each of the nodes before they are forwarded on the particular outgoing link. This method is also known as connection-oriented transmission. The other method according to which packet switching can be implemented is known as a connectionless method. Here the data is also divided into packets, and every packet is sent over the network as a datagram. A route is not set up beforehand, but every datagram is rotated through the network on its own. Every datagram could, thus, follow a different route through the network and could, consequently, arrive at the destination out of sequence.\\\\
+The best-known example of a circuit switching network is the telephone network. In this type of network, a private link is first set up between source and destination before the transmission of data takes place. The link that is set up can then not be used by other users. In both methods of packet switching, packets are stored at every node along the path between source and destination and then again forwarded. The consequence is a time delay that does not occur in circuit switching. In circuit switching, however, a delay occurs during the setting up of the private link between the source and destination. In the setting up of a network, there are a number of questions that must be answered. The first is the method according to which the user must obtain access to the network. One possibility is that every user gets a dedicated link with a node. Another possibility is that users connect to a specific access port on a node. The network can take on the form of a digital PBX (private branch exchange) or private exchange. These and various other methods are used in practice.\\\\
+The design, building/writing, and maintenance of network hardware and software are some of the growing areas in the computer industry. The growth is driven by the progress in communication and computer technology, the increase in productivity taking place, as well as the growth in the number of users.\\\\
+The computer industry is comparatively young if we compare it to other industries. Nonetheless, great progress has been made in a short period of time. In the first two decades of the industry, computer systems were centralised and usually placed in a single large room. Even in large organisations, there were usually a limited number of computers. The idea was that there was a computer centre to which the users brought their computer work. This concept is fast busy disappearing. Through the mass production of smaller and faster computers, we have the situation today where almost every user has his/her own computer. Computers and workstations have, thus, had a great impact on the workplace in the last few years – we hear of more and more people who “work on a computer”. Office automation is busy changing the workplace enormously. By organising these computers and workstations into networks, an increase in the applications available to users is obtained. Cost saving is also involved, since many users can now share expensive peripheral hardware (for example, laser printers). The most common type of data that is handled by networks is interactive data, typically between terminals and computers. This traffic usually consists of short bursts of under a thousand characters at a time. Communication in the form of electronic mail, bulletin boards, and file transfers, which involve a large number of characters at a time, is also now possible, with the result that information can be distributed by an organisation much faster. Fax and image are also types of traffic that occur increasingly. Digital speech communication is increasing as well.
+\section{Protocols}
+\section{Reference models}
+\section{Basic network types}
+\section{Network architecture}
+\section{The OSI reference model}
+\subsection{Reference models (continued)}
+\subsection{The OSI model}
+\subsection{PDU (protocol data unit)}
+\subsection{Protocol examples}
+\subsection{TCP/IP model}
 \chapter{The Physical Layer}
 Outcomes:
 \begin{itemize}
@@ -91,5 +123,10 @@ Outcomes:
 \item Describe how the identity of communicating parties can be verified;
 \item Describe how email can be safeguarded; and
 \item Discuss social aspects around the use of the Internet.
+\cite{aaronbalchunas2014}
+\cite{cn2010}
 \end{itemize}
+%\bibliographystyle{agsm}
+\bibliographystyle{IEEEtranN}
+\bibliography{biblio}
 \end{document}

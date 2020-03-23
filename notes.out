@@ -1,0 +1,19 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction to Networks}{}% 1
+\BOOKMARK [1][-]{section.1.1}{What is a communication network?}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Protocols}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Reference models}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.4}{Basic network types}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.5}{Network architecture}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.6}{The OSI reference model}{chapter.1}% 7
+\BOOKMARK [2][-]{subsection.1.6.1}{Reference models \(continued\)}{section.1.6}% 8
+\BOOKMARK [2][-]{subsection.1.6.2}{The OSI model}{section.1.6}% 9
+\BOOKMARK [2][-]{subsection.1.6.3}{PDU \(protocol data unit\)}{section.1.6}% 10
+\BOOKMARK [2][-]{subsection.1.6.4}{Protocol examples}{section.1.6}% 11
+\BOOKMARK [2][-]{subsection.1.6.5}{TCP/IP model}{section.1.6}% 12
+\BOOKMARK [0][-]{chapter.2}{The Physical Layer}{}% 13
+\BOOKMARK [0][-]{chapter.3}{The Data Link Layer}{}% 14
+\BOOKMARK [0][-]{chapter.4}{The Media Access Control Sublayer}{}% 15
+\BOOKMARK [0][-]{chapter.5}{The Network Layer}{}% 16
+\BOOKMARK [0][-]{chapter.6}{The Transport Layer}{}% 17
+\BOOKMARK [0][-]{chapter.7}{The Application Layer}{}% 18
+\BOOKMARK [0][-]{chapter.8}{Security}{}% 19
