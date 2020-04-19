@@ -10,4 +10,6 @@ Study Unit 7 - The Application Layer\
 Study Unit 8 - Security\
 \
 Sources:
-1. Computer Networks - Andrew S. Tanenbaum, David J. Wetherall Fifth Edition (International)
+1. Computer Networks - Andrew S. Tanenbaum, David J. Wetherall Fifth Edition (International)\
+2. Complete CCNA Study Guide v2.71 - Aaron Balchunas [online]\
+access via this link: https://www.routeralley.com/completed/ccna_studyguide.pdf
